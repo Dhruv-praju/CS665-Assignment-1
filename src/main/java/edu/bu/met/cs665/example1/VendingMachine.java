@@ -1,3 +1,11 @@
+/**
+ * Name: Dhruv Prajapati
+ * Course: CS-665 Software Designs & Patterns
+ * Date: 02/05/2024
+ * File Name: VendingMachine.java
+ * Description: This class is responsible for the methods and attributes of a Person.
+ */
+
 package edu.bu.met.cs665.example1;
 
 import java.util.HashMap;

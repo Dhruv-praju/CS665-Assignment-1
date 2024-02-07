@@ -1,7 +1,7 @@
 package edu.bu.met.cs665.example1;
 
-public class BlackTea extends Tea{
-    public BlackTea(){
+public class YellowTea extends Tea{
+    public YellowTea(){
         super.condiments.add(new Milk());
         super.condiments.add(new Sugar());
     }
