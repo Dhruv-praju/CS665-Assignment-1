@@ -6,25 +6,6 @@
 | Course       |  Spring      |
 | Assignment 1 |                            |
 
-Flexible as new Coffee types could be added in the future.
-Also each of the coffee,tea types could be set to different base price
-
-Add more condiments
-Price of condiment can be changed
-Each condiment could be set to different price
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Assignment Overview
 The assignment is to create a software application to control a fully automated beverage vending machine.It will be responsible for managing the brewing process of various coffee and Tea beverages like Espresso, Americano, Latte Macchiato for coffee and Black Tea, Green Tea and Yellow Tea for Tea.
