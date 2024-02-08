@@ -27,23 +27,44 @@ Each condiment could be set to different price
 
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+The assignment is to create a software application to control a fully automated beverage vending machine.It will be responsible for managing the brewing process of various coffee and Tea beverages like Espresso, Americano, Latte Macchiato for coffee and Black Tea, Green Tea and Yellow Tea for Tea.
+
+# Assumptions
+The assignment assumes that person only interacts with the vending machine to perform all activities.
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/Dhruv-praju/CS665-Assignment-1
 
 # Implementation Description 
 
 
 For each assignment, please answer the following:
 
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
-- Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
+1.  **Explain the level of flexibility in your implementation, including how new object types can be easily added or removed in the future.**
+
+-   The software design is quite flexibile in following ways :
+        -   New Coffee,Tea object types could be easily added by just adding a class file and extending to super class. Similarly new Condiment types could also be added. To remove a object type simply delete class file
+        -   Each Coffee, Tea, Condiment type can be set to different base price if required in the future. Eg: Latte can be set to $3, Americano can be $4, Expresso to be $2,...
+
+
+
+
+2.  **Discuss the simplicity and understandability of your implementation, ensuring that it is easy for others to read and maintain.**
+
+-   The implementation is easy to read and understand as:
+    -   Every class file along with each of the methods and attributes has its documentation(or brief description).
+    -   The entire project is designed based on the UML class diagram.
+
+3.  **Describe how you have avoided duplicated code and why it is important.**
+   
+-   Duplication is avoided in the following ways:
+    -   By using inheritance. i.e. child classes can access all the features and methods of a parent class. Rather than redefining the same method in every class, all the child classes could inherit that method from parent class which is defined once and could reuse it again and again.
+    -   It is necessary to reduce duplication as much as possible in the project as it is very hard to modify and replace duplicated code.
+
+
+4.  **If applicable, mention any design patterns you have used and explain why they were
+chosen.**
+    -   No Design pattern is used.
 
 
 # Maven Commands
