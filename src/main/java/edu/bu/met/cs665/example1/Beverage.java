@@ -3,7 +3,7 @@
  * Course: CS-665 Software Designs & Patterns
  * Date: 02/05/2024
  * File Name: Beverage.java
- * Description: This class is responsible for the methods and attributes of a Beverage.
+ * Description: This class is responsible for the methods and attributes of a Beverage. This class is associated with VendingMachine class
  */
 
 package edu.bu.met.cs665.example1;
