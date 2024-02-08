@@ -23,9 +23,9 @@ For each assignment, please answer the following:
 
 1.  **Explain the level of flexibility in your implementation, including how new object types can be easily added or removed in the future.**
 
--   The software design is quite flexibile in following ways :
-        -   New Coffee,Tea object types could be easily added by just adding a class file and extending to super class. Similarly new Condiment types could also be added. To remove a object type simply delete class file
-        -   Each Coffee, Tea, Condiment type can be set to different base price if required in the future. Eg: Latte can be set to $3, Americano can be $4, Expresso to be $2,...
+-   The software design is quite flexibile in following ways:
+    -   New Coffee,Tea object types could be easily added by just adding a class file and extending to super class. Similarly new Condiment types could also be added. To remove a object type simply delete class file
+    -   Each Coffee, Tea, Condiment type can be set to different base price if required in the future. Eg: Latte can be set to $3, Americano can be $4, Expresso to be $2,...
 
 
 
